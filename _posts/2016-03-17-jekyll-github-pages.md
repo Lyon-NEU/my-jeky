@@ -7,17 +7,20 @@ tags: []
 ---
 {% include JB/setup %}
 
-##创建自己的Github pages 
+## 创建自己的Github pages 
 
     登录github,New repository
 
-##安装Jekyll
+## 安装Jekyll
+
 安装环境为Win10 64位
 
-##下载Bootstrap模板
+## 下载Bootstrap模板
+
     $git clone https://github.com/plusjade/jekyll-boostrap.git name
 
-##发布到Github
+## 发布到Github
+
 - git remote set-url origin https://github.com/lyon-neu.io/ `name`.git
 - git add .
 - git commit -m ''
