@@ -7,7 +7,6 @@ tags: [Java]
 ---
 {% include JB/setup %}
 
-[TOC]
 
 ## 常用方法
 
@@ -103,5 +102,6 @@ public class Stack<T> {
 }
 
 ```
+
 
  [参考](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)
