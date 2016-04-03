@@ -1,23 +1,24 @@
 ---
 layout: page
 title: Hello ,
-tagline: 王兆森
+tagline: Wang Zhaosen
 ---
 {% include JB/setup %}
 
 
 
 
-## 文章列表
+## Pages List
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> 
+    </li>
   {% endfor %}
 </ul>
 
-## 座右铭
-Make every day be different!
+
+## *Make every day be different!*
   
 
 

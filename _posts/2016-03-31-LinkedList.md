@@ -16,7 +16,7 @@ tags: [Java]
 * `getFirst()`,`getLast()`获取列表第一个、最后一个元素
 * `addFirst()`与`add()`和`addLast()`相同，都将某个元素插入到列表的尾(端)部。
 
-```Java
+```java
 
 public class LinkedListTest {
 
@@ -102,6 +102,5 @@ public class Stack<T> {
 }
 
 ```
-
 
  [参考](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)

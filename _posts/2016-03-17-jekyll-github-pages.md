@@ -1,36 +1,60 @@
 ---
 layout: post
-title: "jekyll github pages"
+title: "jekyll+github pages搭建博客"
 description: ""
 category: 
 tags: []
 ---
 {% include JB/setup %}
 
-## 创建自己的Github pages 
 
-    登录github,New repository
+### 创建自己的Github pages 
 
-## 安装Jekyll
+* 注册自己的`*github*`帐号
+* 新建`new repository`,名字命名为username.github.io
+* 进入此项目，点击`setting`,选择autimatic generate layout ,然后继续选择布局,保存
+* 访问地址 http://username.github.io
 
-安装环境为Win10 64位
+### 安装Jekyll
 
-## 下载Bootstrap模板
+`Win10 64`位环境下的安装过程
 
-    $git clone https://github.com/plusjade/jekyll-boostrap.git jekyll
+* 安装`Ruby`
+    - 下载[RubyInstaller](http://www.ruby-lang.org/en/documentation/installation/)运行安装
 
-## 发布到Github
+* 安装`RubyGems`
+    - [下载](https://rubygems.org/pages/download)
+    - 解压压缩包，进入目录
+    - 运行 `ruby setup.rb`
+    
+* 安装jekyll
+* `gem install jekyll`
 
-- git remote set-url origin https://github.com/lyon-neu.io/ `name`.git
+### 下载Bootstrap模板
+
+    $ git clone https://github.com/plusjade/jekyll-boostrap.git jekyll
+
+### 发布到Github
+
+- 在git新建一个仓库，如`my-jyky`
+- git remote set-url origin https://github.com/usernmae/`my-jeky`.git
 - git add .
 - git commit -m ''
 - git push origin master
 - git checkout -b gh-pages  
-- 修改根目录下地_config.yml文件 
-    production_url : http://lyon-neu.github.io
-    JB：
-        BASE_PATH : /jekyll-demo
+- 修改根目录下地_config.yml文件 <br>
+
+    > `production_url` : http://lyon-neu.github.io <br>
+    > `JB`：<br>
+    > 
+    >> `BASE_PATH` : /jekyll-demo
 
 查看bootstrap模板下的/asset/themes/目录，可以看到有bootstrap-3和twitter两个文件夹，实际布署的时候会提示找不到bootstrap/，所次将bootstrap-3里的文件全部复制到/themes/目录下
 
-你可以直接 [下载 PDF]({{ site.url }}/assets/IADIS_submission_Lisa_W.pdf).
+## To do
+* table不能解析
+在实际应用中，不知道什么原因，尝试多次，jekyll始终不能渲染表格
+
+
+[jekyll-en](https://jekyllrb.com/)<br>
+[jekyll-中文](http://jekyllcn.com/docs/home/) <br>
