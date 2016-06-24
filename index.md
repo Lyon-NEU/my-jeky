@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello ,
-tagline: Wang Zhaosen
+title: Hello
+tagline: Zhaosen
 ---
 {% include JB/setup %}
 
@@ -18,7 +18,7 @@ tagline: Wang Zhaosen
 </ul>
 
 
-## *Make every day be different!*
+## Make every day be different!
   
 
 
