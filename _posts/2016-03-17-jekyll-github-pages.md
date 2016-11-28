@@ -32,7 +32,13 @@ tags: []
 
 ### 下载Bootstrap模板
 
-    $ git clone https://github.com/plusjade/jekyll-boostrap.git jekyll
+    ```
+    git clone https://github.com/plusjade/jekyll-bootstrap.git USERNAME.github.com
+  	cd USERNAME.github.com
+  	git remote set-url origin git@github.com:USERNAME/	USERNAME.github.com.git
+  	git push origin master
+    ```
+ [参考themes](http://jekyllbootstrap.com/usage/jekyll-theming.html)
 
 ### 发布到Github
 
@@ -47,7 +53,7 @@ tags: []
     > `production_url` : http://lyon-neu.github.io <br>
     > `JB`：<br>
     > 
-    >> `BASE_PATH` : /jekyll-demo
+    >> `BASE_PATH` : /my-jeky
 
 查看bootstrap模板下的/asset/themes/目录，可以看到有bootstrap-3和twitter两个文件夹，实际布署的时候会提示找不到bootstrap/，所次将bootstrap-3里的文件全部复制到/themes/目录下
 
@@ -58,3 +64,4 @@ tags: []
 
 [jekyll-en](https://jekyllrb.com/)<br>
 [jekyll-中文](http://jekyllcn.com/docs/home/) <br>
+[Setting up your Github Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
