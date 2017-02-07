@@ -23,7 +23,7 @@ Excerpt Test
 
 ### Modify hosts  
 Type `vim /etc/hosts` in shell , and update file as the following resutls:  
-![hosts](/assets/pictures/hosts.png)
+![hosts]({{site.url}}/assets/pictures/hosts.png)
 
 ### Install Zookeeper  
 we installed zookeeper in the __first three machines(192.168.83.209-211)__    
