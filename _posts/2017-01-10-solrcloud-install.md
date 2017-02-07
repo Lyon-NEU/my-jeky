@@ -4,10 +4,15 @@ title: "Install SorlCloud"
 description: "install solrcloud "
 category: solr
 tags: [solr]
+excerpt_separator: <!--more-->
 ---
 {% include JB/setup %}
 
-==================================
+Excerpt Test
+
+<!--more-->  
+
+
 
 ## Install solrcloud 
 
@@ -18,7 +23,7 @@ tags: [solr]
 
 ### Modify hosts  
 Type `vim /etc/hosts` in shell , and update file as the following resutls:  
-![hosts]({{ site.url }}/assets/pictures/hosts.png)
+![hosts](/assets/pictures/hosts.png)
 
 ### Install Zookeeper  
 we installed zookeeper in the __first three machines(192.168.83.209-211)__    
