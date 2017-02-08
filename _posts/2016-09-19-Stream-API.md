@@ -2,7 +2,7 @@
 layout: post
 title: "Java 8 Stream API"
 description: ""
-category:
+category: Java
 tags: [Java]
 ---
 {% include JB/setup %}

@@ -2,7 +2,7 @@
 layout: post
 title: "LinkedList"
 description: ""
-category: 
+category: Java
 tags: [Java]
 ---
 {% include JB/setup %}
