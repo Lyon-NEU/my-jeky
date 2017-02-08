@@ -5,8 +5,9 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
 
-paginate: 5
-gems: [jekyll-paginate]
+#paginate: 5
+#gems: [jekyll-paginate]
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
@@ -84,7 +85,8 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : false  ## global forbidden, if single post should add `comments : false` in every _post
+    #provider : disqus  ## global forbidden, if single post should add `comments : false` in every _post
+    provider : duoshuo
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -97,7 +99,7 @@ JB :
       width: 580
       colorscheme: light
     duoshuo :
-      short_name : jekyllbootstrap
+      short_name : camelslab
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
