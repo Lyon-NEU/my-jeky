@@ -85,8 +85,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    #provider : disqus  ## global forbidden, if single post should add `comments : false` in every _post
-    provider : duoshuo
+    provider : true  ## global forbidden, if single post should add `comments : false` in every _post
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -99,7 +98,7 @@ JB :
       width: 580
       colorscheme: light
     duoshuo :
-      short_name : camelslab
+      short_name : jekyllbootstrap
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
