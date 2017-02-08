@@ -85,7 +85,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : false  ## global forbidden, if single post should add `comments : false` in every _post
+    provider : disqus  ## global forbidden, if single post should add `comments : false` in every _post
     disqus :
       short_name : jekyllbootstrap
     livefyre :
